@@ -212,9 +212,9 @@ section {
   color: var(--black);
 }
 
-.header {
+/* .header {
   background-color: gray;
-}
+} */
 
 .header-container {
   display: flex;
@@ -264,7 +264,8 @@ section {
 
 .special-list {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
 }
 
 .special-item {
@@ -289,7 +290,8 @@ section {
 
 .work-list {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
 }
 
 .work-item {
@@ -299,7 +301,8 @@ section {
 
 .team-list {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
 }
 
 .team-item {
